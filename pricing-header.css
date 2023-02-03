@@ -1,0 +1,159 @@
+
+
+
+.part1 .message {
+    display: flex;
+    font-size: 160%;
+    margin-top: 30vw;
+    font-family: var(--smile-font);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.message .smile {
+    width: 8%;
+    height: 8%;
+    margin-left: 15px;
+}
+
+.message .logo {
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.message p {
+    margin: 0;
+}
+
+.hero-content .part1 .heading {
+    margin-top: 10vw;
+}
+
+
+.part-2 .plans p {
+    margin: 0;
+    
+}
+
+.part-2 {
+    margin-top: 80vw;
+}
+
+.benefits {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 5vw;
+}
+
+.benefits .bnft {
+    font-size: 4.5vw;
+    flex-basis:50%;
+    margin: 0;
+    /* margin: 0 0 0 15px; */
+    line-height: 7vw;
+}
+
+
+.svg-check {
+    transform: rotate(-180deg) scale(-1,1);
+    fill: #82D24F;
+    width: 8vw;
+}
+.frst {
+    position: relative;
+    /* transform: translateX(-20px); */
+}
+.frst .b {
+    position: absolute;
+    top: -60vw;
+}
+.frst .b p:nth-child(2) {
+    font-size: 11vw;
+    font-weight: bold;
+    margin: 5vw 0 0 0;
+}
+
+.frst .b p:nth-child(3) {
+    text-align: center;
+    color: gainsboro;
+    opacity: .5;
+    font-size: 3.25vw;
+}
+.frst .b p {
+    text-align: center;
+}
+
+.frst .b button {
+    width: 42vw;
+}
+
+.frst .f {
+    left: -64vw;
+}
+.frst .s {
+    left: -31vw;
+}
+.frst .pl {
+    margin: 0;
+    /* text-align: center; */
+    position: absolute;
+    font-size: 2.9vw;
+    font-weight: bold;
+    top: -10.5vw;
+    width: 13.5vw;
+}
+
+.frst .m {
+    margin: 0 0 0 -2.8vw;
+}
+
+.line {
+    width: 88vw;
+    margin-top: 5vw;
+    opacity: .2;
+}
+
+.benefits p img {
+    display: block;
+    width: 50%;
+    margin-bottom: 2.5vw;
+}
+
+.benefits:nth-child(7) .frst:nth-child(2),
+.benefits:nth-child(9) .frst:nth-child(2) {
+    opacity: 0;
+}
+
+/* faq */
+.faq  {
+    font-family: var(--smile-font);
+}
+.faq .title-faq {
+    font-size: 15vw;
+    margin-top: 15vw;
+    text-align: center;
+    font-weight: 300;
+}
+
+.grid-faq{
+    display: grid;
+    max-width:100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 0 4vw;
+    
+}
+.grid-item-faq {
+    margin-bottom: 15vw;
+    line-height: 7vw;
+    max-width:100%;
+    
+}
+.grid-item-faq p {
+    max-width: 100%;
+    color: #071629;
+    opacity: .516;
+}

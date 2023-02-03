@@ -1,0 +1,160 @@
+
+body {
+    font-family: var(--smile-font);
+}
+.main-header3 {
+    background: url("./assets/images/pic_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* transform: scale(.5); */
+    /* position: relative; */
+    color: var(--smile-white);
+    
+    padding: 0;
+    width: 100%;
+}
+
+.message-m {
+    display: none;
+}
+
+.search-filter {
+    max-width: 100%;
+    background-color: var(--smile-purple);
+    padding: 8vw 7vw;
+    display: grid;
+    row-gap: 7vw;
+}
+
+.search-filter label {
+    display: block;
+}
+
+.search-filter div {
+    width: 100%;
+}
+
+
+.search-filter .search-input input {
+    padding: 0;
+    background-color:rgba(255, 255, 255, 0);
+    border: none;
+    width: 90%;
+    color: white;
+    margin-left: 8.5vw;
+}
+
+
+.search-filter .search-input input:focus-visible {
+    outline: none;
+}
+
+.search-filter .dropdown,
+.search-filter .search-input .search-icon-input  {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .25);
+    position: relative;
+    /* display: flex; */
+    border: none;
+    border-radius: 2.5px;
+    border-bottom: 1.5px rgba(255, 255, 255, .25) solid;
+}
+
+.search-filter .dropdown input {
+    display: none;
+}
+
+.search-filter .search-input .search-icon-input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .25);
+    gap: 1.5vw;
+}
+
+
+.search-filter .dropdown .selected-option,
+.search-filter .search-input .search-icon-input{
+    padding: 4vw 2vw;
+    color: white;
+    font-size: 5vw;
+}
+
+.search-filter .search-input input::placeholder {
+    color: rgba(255, 255, 255, .6);
+}
+.search-filter .dropdown .options {
+    height: 0;
+    overflow: hidden;
+    transition: all .25s ease;
+    margin:0 0;
+    list-style: none;
+    padding-left: 4vw;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    font-size: 4vw;
+    font-weight: bold;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.dropdown input:checked  ~ .options{
+    height: 28vw;
+}
+
+.search-filter .dropdown .options li {
+    margin: 3.5vw 0;   
+    cursor: pointer;
+}
+
+.search-filter .dropdown .options li:hover {
+    color: var(--smile-purple);
+}
+
+
+.search-filter .text-label {
+    color: white;
+    font-size: 3.25vw;
+    margin-bottom: 1.25vw;
+}
+
+.svg-search {
+    fill: white;
+    width: 7vw;
+    transform: rotate(-180deg) scale(-1, 1) translateY(1vw);
+    position: absolute;
+}
+
+.svg-label {
+    position: absolute;
+    top: 6vw;
+    right: 10vw;
+}
+
+.svg-label svg {
+    width: 4vw;
+}
+.courses-grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11, 1fr);
+    row-gap: 5vw;
+    padding-bottom: 10vw;
+}
+.card-1 {
+    opacity: 1;
+    margin: 0;
+    width: 80vw;
+}
+
+.number-of-elements {
+    margin-left: 10vw;
+    opacity: .5;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+}
+
+
+

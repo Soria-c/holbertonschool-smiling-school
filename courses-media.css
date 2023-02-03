@@ -1,0 +1,180 @@
+@media screen and (min-width: 577px){
+    .main-header3 {
+        padding-bottom: 4vw;
+    }
+    .message-m {
+        display: block;
+        width: 70%;
+        margin: 4vw 15vw;
+        text-align: center;
+        font-size: 4vw;
+        font-family: 'Coiny';
+    }
+    .message-m p {
+        margin: 0;
+    }
+
+    .message-m p span {
+        color: var(--smile-purple);
+    }
+    
+
+    .search-filter {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 3vw;
+        padding: 4.5vw 3.5vw;
+    }
+
+    .search-filter .text-label {
+        font-size: 1.5vw;
+    }
+
+    .search-filter .search-input input {
+        width: 75%;
+        margin-left: 4.25vw;
+    }
+    .svg-search {
+        width: 3vw;
+        transform: rotate(-180deg) scale(-1, 1) translateY(.5vw);
+    }
+
+    .search-filter .dropdown .selected-option, 
+    .search-filter .search-input .search-icon-input {
+        font-size: 2vw;
+        padding: 2vw 1vw;
+    }
+
+    .svg-label {
+        top: 2.55vw;
+        right: 5vw;
+    }
+
+    .svg-label svg {
+        width: 2vw;
+    }
+
+    .search-filter .dropdown .options {
+        font-size: 1.5vw;
+        padding-left: 3vw;
+    }
+
+    .dropdown input:checked  ~ .options {
+        height: 12.5vw;
+    }
+
+    .search-filter .dropdown .options li {
+        margin: 1.75vw 0;
+    }
+
+    .courses-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 5vw;
+        column-gap: .5vw;
+        justify-content: space-around;
+    }
+    .card-1 {
+        width: 90%;
+    }
+
+    .number-of-elements {
+        margin-left: 2.5vw;
+        opacity: .5;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .search-filter {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 3vw;
+        padding: 3vw 12vw;
+    }
+
+    .search-filter .text-label {
+        font-size: .8vw;
+        margin-bottom: .5vw;
+    }
+
+    .search-filter .search-input input {
+        width: 85%;
+        margin-left: 2.25vw;
+    }
+    .svg-search {
+        width: 1.5vw;
+        transform: rotate(-180deg) scale(-1, 1) translateY(0.25vw);
+    }
+
+    .search-filter .dropdown .selected-option, 
+    .search-filter .search-input .search-icon-input {
+        font-size: 1vw;
+        padding: .75vw .375vw;
+    }
+
+    .svg-label {
+        top: 1.1vw;
+        right: 2.5vw;
+    }
+
+    .svg-label svg {
+        width: 1vw;
+    }
+
+    .search-filter .dropdown .options {
+        font-size: .8vw;
+        padding-left: 2vw;
+    }
+
+    .dropdown input:checked  ~ .options {
+        height: 7vw;
+    }
+
+    .search-filter .dropdown .options li {
+        margin: 1vw 0;
+    }
+
+    .search-filter .dropdown,
+    .search-filter .search-input .search-icon-input{
+        border-bottom: medium  rgba(255, 255, 255, .25) solid;
+
+    }
+
+    .main-header3 {
+        padding-bottom: 1vw;
+    }
+    .message-m {
+        display: block;
+        width: 35%;
+        margin: 1vw 32.5vw;
+        text-align: center;
+        font-size: 2vw;
+        font-family: 'Coiny';
+    }
+    .message-m p {
+        margin: 0;
+    }
+
+    .courses-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 5vw;
+        column-gap: 1vw;
+        justify-content: space-evenly;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .card-1 {
+        width: 100%;
+    }
+
+    .number-of-elements {
+        margin-left: 10vw;
+        opacity: .5;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+}

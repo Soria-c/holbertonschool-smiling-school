@@ -1,0 +1,171 @@
+@media screen and (min-width: 577px){
+    .frst .pl {
+        display: none;
+    }
+
+    .frst .b {
+        top: -20.5vw;
+    }
+    .frst .s {
+        left: -8vw;
+    }
+    .frst .f {
+        left: -8vw;
+    }
+    .frst .b button {
+        width: 20vw;
+        font-size: 2vw;
+        padding: 2vw 2vw;
+    }
+
+    .frst .b p:nth-child(2) {
+        font-size: 4vw;
+        margin: 1vw 0 0 0;
+    }
+
+    .frst .b p:nth-child(3) {
+        font-size: 1vw;
+    }
+
+
+    .benefits .bnft {
+        font-size: 2.5vw;
+        flex-basis: 30%;
+        line-height: 5vw;
+        margin-left: -4vw;
+    }
+
+    .part-2 {
+        margin-top: 35vw;
+    }
+
+    .svg-check {
+        width: 5vw;
+    }
+
+    /* faQ */
+
+    .grid-faq{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 0 8vw;
+        column-gap: 5vw;
+    }
+    .faq .title-faq {
+        font-size: 10.5vw;
+        margin-top: 10vw;
+    }
+
+    .grid-item-faq {
+        line-height: 3.5vw;
+        margin-bottom: 10vw;
+    }
+
+}
+
+
+
+   
+
+@media screen and (min-width: 769px) {
+
+    .message .smile {
+        width: 2%;
+        height: 2%;
+        align-self: center;
+    }
+
+    .message .logo {
+        width: 12.5%;
+        align-self: flex-end;
+    }
+    .part1 .message {
+        margin-top: 10.5vw;
+        align-items: flex-start;
+    }
+
+    .message p {
+        font-size: 2.5vw;
+    }
+
+    .hero-content .part1 .heading {
+        margin-top: 5vw;
+        font-size: 4vw;
+    }
+
+    .frst .b button {
+        width: 12vw;
+        font-size: .8vw;
+
+        padding: 1vw 1vw;
+
+    }
+
+    .frst .b p:nth-child(2) {
+        font-size: 2.5vw;
+    }
+    .frst .b p:nth-child(3) {
+        font-size: .8vw;
+    }
+
+    .part-2 {
+        margin-top: 15.5vw;
+    }
+
+    .frst .b {
+        top: -12.25vw;
+    }
+
+    .benefits .bnft {
+        font-size: 1vw;
+        flex-basis: 20%;
+        line-height: 1.2vw;
+    }
+
+    .svg-check {
+        width: 2.5vw;
+    }
+
+    .line {
+        margin-top: 1vw;
+        margin-left: 4.1vw;
+        width: 85%;
+    }
+
+    .benefits {
+        margin-top: 1.5vw;
+        margin-left: -5vw;
+    }
+
+    .benefits p img {
+        width: 30%;
+        margin-bottom: 1.5vw;
+    }
+
+    .frst .f {
+       left: -6vw; 
+    }
+
+    .frst .s{
+        left: -6vw;
+    }
+
+    .svg-check {
+        transform: rotate(-180deg) scale(-1,1) translateX(-1.2vw);
+    }
+
+    .grid-faq {
+        padding: 0 13vw;
+        column-gap: 12vw;
+    }
+    .grid-item-faq {
+        line-height: 2vw;
+        margin-bottom: 5vw;
+    }
+
+    .faq .title-faq {
+        font-size: 4.5vw;
+        margin-top: 5vw;
+    }
+}
+
